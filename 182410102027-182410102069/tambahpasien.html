@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>TAMBAH DATA PASIEN</title>
+<link rel="stylesheet" href="style4.css" type="text/css">
+</head>
+<body bgcolor="#99ff99">
+<center>
+<div id="header">
+<img src="logo.png" width="80" height="80" align="left" valign="top">
+<font color="#ffff00" size="6"><b>SELAMAT DATANG DI UKSSKENSA ONLINE</b></font><br>
+<font color="#00ff00" size="3">UNIT KESEHATAN SMKN 1<br>
+<font color="#ffcc00" size="3"><b>JALAN VETERAN KEC. BUGUL KIDUKKOTA PASURUAN JAWA TIMUR KODEPOS = 67118</b> <br>
+<br>
+<div id="navbar">
+<ul>
+<li><a class="active" href="#welcome">HOME</a></li>
+<li><a class="active" href="#profile">PASIEN</a></li>
+<li><a class="active" href="LOGIN.php">OBAT</a></li>
+<li><a class="active" href="LOGIN.php">SURAT</a></li>
+<li><a class="active" href="LOGIN.php">DOKUMEN</a></li>
+<li><a class="active" href="LOGIN.php">ABOUT</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<form id="tambahpasien" name="tambahpasien" action="" method="post">
+<fieldset>
+<legend>
+TAMBAH DATA PASIEN
+</legend>
+<table width="400" height="270" align="center" valign="top" border="0" cellpadding="3">
+<tr>
+<td width="200" height="30" align="left" valign="top">NAMA PASIEN :</td>
+<td width="300" height="30" align="left" valign="top"><input type="text" name="nama" id="nama" placeholder="nama pasien"></td>
+</tr>
+<tr>
+<td width="200" height="30" align="left" valign="top">KELAS :</td>
+<td width="300" height="30" align="left" valign="top"><input type="text" name="kelas" id="kelas" placeholder="kelas"></td>
+</tr>
+<tr>
+<td width="200" height="30" align="left" valign="top">TANGGAL :</td>
+<td width="300" height="30" align="left" valign="top"><input type="number" name="tanggal" id="tanggal" placeholder="tanggal"></td>
+</tr>
+<tr>
+<td width="200" height="30" align="left" valign="top">JAM KEDATANGAN :</td>
+<td width="300" height="30" align="left" valign="top"><input type="number" name="jam" id="jam" placeholder="jam"></td>
+</tr>
+<tr>
+<td width="200" height="30" align="left" valign="top">KELUHAN :</td>
+<td width="300" height="30" align="left" valign="top"><input type="text" name="nama" id="nama" placeholder="nama pasien"></td>
+</tr>
+<tr>
+<td width="200" height="40" align="left" valign="top">TINDAKAN :</td>
+<td width="300" height="40" align="left" valign="top"><div class="box"><select>
+    <option value="0">Select pasien:</option>
+    <option value="1">Rawat Jalan</option>
+    <option value="2">Rawat Inap</option>
+	<option value="3">Rujukan</option>
+  </select>
+  </div>
+</td>
+</tr>
+<tr>
+<td width="200" height="30" align="left" valign="top">PENGGUNAAN SURAT IZIN :</td>
+<td width="300" height="30" align="left" valign="top"><input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+  YES
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+  NO
+</td>
+</tr>
+<tr>
+<td width="200" height="40" align="center" valign="middle" colspan="2"><input type="submit" name="submit" value="TAMBAH DATA"></td>
+</tr>
+</table>
+</fieldset>
+</form>
+<br>
+<div id="jalan">
+<marquee behavior="alternate" font-color="#ffff00"><b>JAM PELAYANAN UKS SKENSA PADA PUKUL 07.00 SAMPAI 14.00 WIB<b></marquee>
+</div>
+</div>
+<div id="footer">
+<table width="100%" border="0">
+<tr>
+<td>&nbsp</td>
+<td><img src="gmail.png" width="30" height="30" align="left" valign="top"> <font color="#ffffff"> uksskensa@smkn1pasuruan.sch.id</font></td>
+<td>&nbsp</td>
+<td><img src="fb.png" width="30" height="30" align="left" valign="bottom"> <font color="#ffffff"> uks skensa pasuruan</font></td>
+<td>&nbsp</td>
+<td><img src="4.png" width="30" height="30" align="left" valign="bottom"> <font color="#ffffff"> supported by smkn1pasuruan</font></td>
+</tr>
+<tr>
+<td>&nbsp</td>
+<td><img src="twitter.png" width="30" height="30" align="center" valign="middle"> <font color="#ffffff"> uksskensapas</font></td>
+<td>&nbsp</td>
+<td>
+<img src="instagram.png" width="30" height="30" align="center" valign="bottom"> <font color="#ffffff"> ukskensa1pas</font>
+</td>
+<td>&nbsp</td>
+<td>
+<font color="#ffffff"> version application is 0.1</font>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

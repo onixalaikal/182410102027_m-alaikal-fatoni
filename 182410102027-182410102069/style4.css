@@ -1,0 +1,139 @@
+table{
+	color:#ffff00;
+}
+form
+{
+	width:420;
+	height:400;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border:0px solid green;
+	margin-left:450;
+	margin-top:50;
+	background-color:#009900;
+}
+fieldset{
+	width:300;
+	height:300;
+	border:0px;
+}
+legend{
+	color:#00ff00;
+	width:300;
+	background-color:#000033;
+	color:#00ced1;
+	margin-left:5;
+	margin-top:10;
+	text-align:center;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input[type=text]
+{
+	width:200;
+	height:30;
+	border: none;
+    border-bottom: 4px solid #000033;
+}
+input[type=number]
+{
+	width:200;
+	height:30;
+	border: none;
+    border-bottom: 4px solid #000033;
+}
+input[type=submit]
+{
+	width:300;
+	height:30;
+	border: none;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 10px 10px 10px 10px;
+	background-color: #00ff00;
+	color:#003300;
+}
+
+.box {
+  position: absolute;
+  top: 75%;
+  left: 46.7%;
+}
+
+.box select {
+  background-color: #003300;
+  color: white;
+  padding: 3px;
+  width: 100px;
+  height:30px;
+  border: none;
+  font-size: 9px;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+#header
+{
+background-color : #003300;
+height : 23%;
+width:100%;
+font-size : 0.5cm;
+text-align: center;
+padding-top : 10px;
+}
+#navbar
+{
+background-color:#009900;
+margin:auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #009900;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #00ff00;
+}
+center ul{
+width: -moz-fit-content;
+width: -webkit-fit-content;
+#width: fit-content;
+margin: auto;
+}
+#content
+{
+	float  : right;
+	width  : 100%;
+	height : 100%;
+	font-size : 0.5cm;
+	text-align: center;
+	padding-top : 20px;
+}
+#jalan
+{
+	background-color: #003300;
+	height: 5%;
+	margin-top: 4%;
+	width:100%;
+}
+#footer
+{
+background-color : #003300;
+clear : both;
+font-size : 0.5cm;
+text-align : justify;
+height: 15%;
+width:100%;
+}
